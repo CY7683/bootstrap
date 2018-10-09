@@ -1,0 +1,383 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- 适应移动端 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Flexy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.1.min.js"></script><!-- jquery插件 -->
+<!--webfonts-->
+ <link href='http://fonts.useso.com/css?family=Romanesco|Raleway:400,300,500,600,700' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.useso.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+</head>
+<body>
+<!--start-home-->
+		<div class="banner" id="home">
+			<div class="container"><!-- 固定布局 -->
+			 <div class="header-top">
+					<div class="logo"><!-- logo部分 -->
+						<a href="index.html"><h1>Flex<span>y</span></h1></a>
+					</div>
+					<div class="search-box"><!-- 搜索部分-->
+						<div class="b-search">
+							<form>
+									<input type="text" value="Search" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}">
+									<input type="submit" value=""><!-- 文本框 -->
+							</form>
+						</div>
+					</div>
+					<div class="clearfix"></div><!-- 清除浮动 -->
+					<!--top-nav-->
+				<span class="menu"> </span>
+				<div class="top-menu">
+				<nav class="cl-effect-21">
+					<ul><!-- 菜单区 -->
+						<li><a class="active scroll" href="#home">家</a></li>
+						<li><a class="scroll" href="#about"> 关于</a></li>
+						<li><a class="scroll" href="#service">服务</a></li>
+						<li><a class="scroll" href="#team">团队</a></li>
+						<li><a class="scroll" href="#test">接触</a></li>
+						<li><a class="scroll" href="#gallery">画廊</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</nav>
+				</div>
+				<!-- script-for-menu -->
+				<script>
+				$( "span.menu" ).click(function() {
+				  $( ".top-menu" ).slideToggle( "slow", function() {
+				    // Animation complete.
+				  });
+				});
+			</script>
+			<!-- script-for-menu -->
+		   </div>
+		</div>
+	<div class="container">
+		<div class="banner-slider">
+				<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider4">
+						<li>
+						<div class="banner-img"><img src="images/1.jpg" class="img-responsive" alt="" /></div><!-- 响应式图片 -->
+						</li>
+						<li>
+						<div class="banner-img"><img src="images/2.jpg" class="img-responsive" alt="" /></div><!-- 响应式图片 -->
+						</li>
+					</ul>
+			</div>
+		<!--banner-bottom结束-->
+        <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+		    <div class="banner-bottom">
+			 <div class="banner-bot-grids">
+				 <div class="col-md-4 banner-grid one">
+				      <div class="col-md-2 icon">
+						<i class="s1"> </i>
+					</div>
+					<div class="col-md-10 icon-text">
+					    <h4>课程灵活的时间表</h4>
+						<p>Lorem存有悲坐阿梅德，consectetur adipiscing ELIT。不幸的是，开发者和消费者。</p>
+					 </div>
+					  <div class="clearfix"> </div><!-- 清除浮动 -->
+				 </div>
+				 <div class="col-md-4 banner-grid two">
+				      <div class="col-md-2 icon"><!-- 栅格笔计本上占2格 -->
+						<i class="s2"> </i>
+					</div>
+					<div class="col-md-10 icon-text"><!-- 栅格笔计本上占10格 -->
+					     <h4>类价格实惠</h4>
+						<p>Lorem存有悲坐阿梅德，consectetur adipiscing ELIT。不幸的是，开发者和消费者。</p>
+					 </div>
+					  <div class="clearfix"> </div>
+				 </div>
+				 <div class="col-md-4 banner-grid three">
+				     <div class="col-md-2 icon"><!-- 栅格笔计本上占2格 -->
+						<i class="s3"> </i>
+					</div>
+					<div class="col-md-10 icon-text">
+					     <h4>Plesant客户端奖金</h4>
+						<p>Lorem存有悲坐阿梅德，consectetur adipiscing ELIT。不幸的是，开发者和消费者。</p>
+					 </div>
+					  <div class="clearfix"> </div>
+				 </div>
+			 </div>
+			 <div class="clearfix"> </div><!-- 清除浮动 -->
+		 </div>
+	    </div>
+		<!--- banner Slider starts Here --->
+	  	<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager:false,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+
+			    });
+			  </script>
+		</div>
+	</div>
+<!--/welcome-->
+	<div class="about-section" id="about">
+		<div class="container">
+		      <h3 class="tittle">关于我们</h3>
+			  <div class="ab-top">
+				<div class="col-md-7 about-top">
+					<h4>瑜伽Practies</h4>
+					<h5>一个地方培育的头脑，身体和精神。</h5>
+					<p>柏拉图与你和大海。铜必须有困难，军队definiebas或本烤。两种融资为他们满足。在写在上面。矿或自行寻求两者的其他设备。Mazim.Unusual说，传说中的借记卡没有用提过。现在，他其中的一部分，而适当的形式。</p>
+					<p>柏拉图与你和大海。铜必须有困难，军队definiebas或本烤。两种融资为他们满足。在写在上面。矿或自行寻求两者的其他设备。Mazim.Unusual说，传说中的借记卡没有用提过。现在，他其中的一部分，而适当的形式。</p>
+				</div>
+				<div class="col-md-5 about-img"><!-- 栅格笔计本上占5格 -->
+				<img src="images/boy.jpg" title="yoga" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!--/news-->
+<!--/services-->
+	<div class="service-section" id="service">
+	 <h3 class="tittle two">服务</h3>
+			<div class="serve-grids">
+				<div class="col-md-6 service-text"><!-- 栅格笔计本上占6格 -->
+					<div class="serve-bot-grids">
+				 <div class="serve-grid one">
+				      <div class="col-md-2 s-icon">
+						<i class="s1"> </i>
+					</div>
+					<div class="col-md-10 s-icon-text">
+					    <h4>课程灵活的时间表</h4>
+						<p class="para">Lorem存有简直是印刷排版行业的虚拟文本。Lorem存有一直是业界标准的虚拟曾文本自1500年，当一个未知的打印机。</p>
+					 </div>
+					  <div class="clearfix"> </div><!-- 清除浮动 -->
+				 </div>
+				 <div class="serve-grid two">
+				      <div class="col-md-2  s-icon">
+						<i class="s2"> </i>
+					</div>
+					<div class="col-md-10  s-icon-text">
+					     <h4>类价格实惠</h4>
+						<p class="para">Lorem存有简直是印刷排版行业的虚拟文本。Lorem存有一直是业界标准的虚拟曾文本自1500年，当一个未知的打印机。</p>
+					 </div>
+					  <div class="clearfix"> </div>
+				 </div>
+				 <div class="serve-grid three">
+				     <div class="col-md-2 s-icon">
+						<i class="s3"> </i>
+					</div>
+					<div class="col-md-10 s-icon-text">
+					     <h4>Plesant客户端奖金</h4>
+						<p class="para">Lorem存有简直是印刷排版行业的虚拟文本。Lorem存有一直是业界标准的虚拟曾文本自1500年，当一个未知的打印机。</p>
+					 </div>
+					  <div class="clearfix"> </div><!-- 清除浮动 -->
+				 </div>
+			 </div>
+			 <div class="clearfix"> </div>
+		 </div>
+				</div>
+				<div class="col-md-6 service-img">
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+	</div>
+	<!--/team-->
+	<div class="team-section" id="team">
+		<div class="container">
+			 <h3 class="tittle"> 我们的团队</h3>
+			 <div class="team-grids">
+			      <div class="col-md-3 t-img">
+					<img src="images/t1.jpg" alt="name" />
+					<div class="team-text">
+					   <h4>接触</h4>
+					</div>
+				  </div>
+				  <div class="col-md-3 t-img">
+					<img src="images/t2.jpg" alt="name" />
+					<div class="team-text">
+					   <h4>中期Erassing</h4>
+					</div>
+				  </div>
+				  <div class="col-md-3 t-img">
+					<img src="images/t3.jpg" alt="name" />
+					<div class="team-text">
+					   <h4>歌手middil</h4>
+					</div>
+				  </div>
+				  <div class="col-md-3 t-img">
+					<img src="images/t4.jpg" alt="name" />
+					<div class="team-text">
+					   <h4>歌手middil</h4>
+					</div>
+				  </div>
+				  <div class="clearfix"></div>
+			 </div>
+		</div>
+	</div>
+	<!--light-box-files -->
+		<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.gallery-bottom a').Chocolat();
+		});
+		</script>
+	<div class="testimonials" id="test">
+	  <div class="container">
+	   <h3 class="tittle three">Testimonials</h3>
+		<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="testi-text">
+								<div class="testi-img">
+									<img src="images/client2.jpg" alt=""/>
+								</div>
+								<h4>歌手middil</h4>
+								<p>功课欧盟LOREM。摩尔人需要非常SAPIEN。在本euismod NEC risus ID tempor坐阿梅德SAPIEN爱欲。整数SAPIEN一个tortor。对于后院</p>
+							</div>
+						</li>
+						<li>
+							<div class="testi-text">
+								<div class="testi-img">
+									<img src="images/client.jpg" alt=""/>
+								</div>
+								<h4>歌手middil</h4>
+								<p>功课欧盟LOREM。摩尔人需要非常SAPIEN。在本euismod NEC risus ID tempor坐阿梅德SAPIEN爱欲。整数SAPIEN一个tortor。对于后院</p>
+							</div>
+						</li>
+						<li>
+							<div class="testi-text">
+								<div class="testi-img">
+									<img src="images/client2.jpg" alt=""/>
+								</div>
+								<h4>歌手middil</h4>
+								<p>功课欧盟LOREM。摩尔人需要非常SAPIEN。在本euismod NEC risus ID tempor坐阿梅德SAPIEN爱欲。整数SAPIEN一个tortor。对于后院</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<!-- banner-text Slider starts Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+				$(function () {
+				// Slideshow 3
+					$("#slider3").responsiveSlides({
+					auto: true,
+					pager:true,
+					nav:false,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+					$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+						$('.events').append("<li>after event fired.</li>");
+					}
+				});
+			});
+		</script>
+	<!--gallery-starts-->
+	<div class="gallery" id="gallery">
+			<div class="container">
+			  <h3 class="tittle">画廊</h3>
+			</div>
+			<div class="gallery-bottom">
+					<div class="col-md-3 gallery-left">
+						<a href="images/g1.jpg">
+							<img src="images/g1.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/g2.jpg">
+							<img src="images/g2.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/g3.jpg">
+							<img src="images/g3.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/g4.jpg">
+							<img src="images/g4.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/g4.jpg">
+							<img src="images/g4.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/g5.jpg">
+							<img src="images/g5.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/g1.jpg">
+							<img src="images/g1.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/g2.jpg">
+							<img src="images/g2.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="clearfix"></div>
+			</div>
+	</div>
+	<!--gallery-->
+	<!--map-->
+    <div class="map">
+	<div class="copy">
+		<p>Copyright &copy;Style</p>
+	</div>
+	<!--start-smoth-scrolling-->
+			<script type="text/javascript">
+								jQuery(document).ready(function($) {
+									$(".scroll").click(function(event){
+										event.preventDefault();
+										$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+									});
+								});
+								</script>
+							<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
